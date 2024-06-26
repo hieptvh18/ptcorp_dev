@@ -1,0 +1,14 @@
+note lms:
+
+
++ follow request: routes -> form request -> controller -> services -> repository -> model -> DB
+
+
+
+==== yc module notification:
++ moduel: giáo viên và admin
+==> follow : admin tao lich send noti->'
+
+
+
+polymorphic relatioshipn

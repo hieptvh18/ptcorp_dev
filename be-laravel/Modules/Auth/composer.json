@@ -1,0 +1,22 @@
+{
+	"name": "ptc/auth-module",
+	"description": "",
+	"authors": [
+		{
+			"name": "Peter",
+			"email": "peter@pt-corp.vn"
+		}
+	],
+	"extra": {
+		"laravel": {
+			"providers": [],
+			"aliases": {}
+		},
+		"module-dir": "Custom"
+	},
+	"autoload": {
+		"psr-4": {
+			"Modules\\Auth\\": ""
+		}
+	}
+}

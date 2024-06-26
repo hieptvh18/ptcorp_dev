@@ -1,0 +1,14 @@
+docker pull : install image from repo docker hub
+
+docker run -it id_image : create && run docker container
+
+ssh vao container dang chay: docker attach ID
+
+- run command ở bên ngoài container đang chạy: docker exec CONTAINER_NAME command
+
+-- package htop check cac tien trinh dang chay: htop
+
+- build container -> images: docker commit CONTAINER_ID image:tag
+
+- ánh xạ data từ máy host docker về local bằng: docker run -it -v PATH_FOLDER_LOCAL:PATH_HOST
+- tạo volume và gán vào container: docker run -it --mount source=DISK,target=pathContainer imageID

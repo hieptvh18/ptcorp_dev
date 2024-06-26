@@ -1,0 +1,157 @@
+https://www.evernote.com/shard/s528/client/snv?isnewsnv=true&noteGuid=c13d7e5f-f7af-9518-144a-afdb913cf99d&noteKey=sbl7Ujc3gJrHTxEvn5HJnCuKegpg1PP5kg9g2IRxLSLBwoGHt1fSKJ4KYA&utm_campaign=zalo&utm_medium=zalo&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs528%2Fsh%2Fc13d7e5f-f7af-9518-144a-afdb913cf99d%2Fsbl7Ujc3gJrHTxEvn5HJnCuKegpg1PP5kg9g2IRxLSLBwoGHt1fSKJ4KYA&title=BE%2BMagento%2B-%2BTodoList&utm_source=zalo
+
+
+＃config ssh
+Host kiugit
+HostName 18.181.158.188
+Port 11825
+User attela
+IdentityFile ~/.ssh/id_rsa
+
+## run lệnh để check
+ssh kiugit
+
+## check ok thì run lệnh sau để clone site M2 về
+git clone kiugit:tmg2
+
+
+ssh attela@18.181.158.188 -p 11825 -i ~/.ssh/meetguy_attela_id_rsa
+sudo su
+pass : kiuatt0331
+name="tmg2db" user="tmg2dbuser" password="tmg2pem3pAin8Cln"
+
+quyen.cth@proteanstudios.com / Quyen1234
+
+== deploy
+1 - truy cập ssh
+2 - sudo su 
++ pass : kiuatt0331
+3 - cd /home/git/tmg2 
++ sh deploy.sh ( lệnh deploy )
+4 - cd /var/www/tmg2 ( về folder code )
+
+
+stop port : sudo kill $(sudo lsof -t -i:22)
+
+php8.2 bin/magento setup:install --backend-frontname='admin' --key='18Av6ITivOZG3gwY1DhMDWtlLfx1spLP' --session-save='files' --db-host='127.0.0.1' --db-name='tmg' --db-user='tmg2' --db-password='tmg123' --base-url='https://tmg.local/' --base-url-secure='https://tmg.local/' --admin-user='admin' --admin-password='!admin123!' --admin-email='john@doe.com' --admin-firstname='John' --admin-lastname='Doe'
+
+site m1: https://stg.themeatguy.jp/
+
+Hôm nay 15/08:
++ Setup enviroment magento & install project tmg
++ Review code project tmg
+
+
+https://tmg2.kiu.co.jp/static/version1692119988/adminhtml/Magento/backend/en_US/mage/adminhtml/grid.js
+
+https://www.evernote.com/shard/s528/client/snv?isnewsnv=true&noteGuid=c13d7e5f-f7af-9518-144a-afdb913cf99d&noteKey=sbl7Ujc3gJrHTxEvn5HJnCuKegpg1PP5kg9g2IRxLSLBwoGHt1fSKJ4KYA&utm_campaign=zalo&utm_medium=zalo&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs528%2Fsh%2Fc13d7e5f-f7af-9518-144a-afdb913cf99d%2Fsbl7Ujc3gJrHTxEvn5HJnCuKegpg1PP5kg9g2IRxLSLBwoGHt1fSKJ4KYA&title=BE%2BMagento%2B-%2BTodoList&utm_source=zalo
+
+
+================= lms
+- link figma: https://www.figma.com/file/K81o4Gf8uheJYtNbiAvamE/Website-Design?type=design&node-id=1046-123220&mode=design
+- dev site: https://lms-dev.eduquiz.vn/
+- jira: https://pt-corp.atlassian.net/jira/software/c/projects/CC/boards/15/backlog?view=detail&selectedIssue=CC-94&issueLimit=100
+- repo: https://gitlab.com/pt-corp/core-cms/be-laravel/-/tree/develop
+https://www.evernote.com/shard/s528/client/snv?isnewsnv=true&noteGuid=84497f8b-4dc4-536a-155a-6ccbacb4d9eb&noteKey=jlhuTYSGScUiHFUQ-uDOV8ZGEajGsYEwtEoPprYcigN2wnmfmIXptrGdNA&utm_campaign=zalo&utm_medium=zalo&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs528%2Fsh%2F84497f8b-4dc4-536a-155a-6ccbacb4d9eb%2FjlhuTYSGScUiHFUQ-uDOV8ZGEajGsYEwtEoPprYcigN2wnmfmIXptrGdNA&title=T%25E1%25BB%2595ng%2Bquan%2Bproject&utm_source=zalo
+
+
+Np6?BPm8Aeb_CvX
+
+https://lms-dev.eduquiz.vn/my-workspace/dashboard?access_token=27451|MO6piH0qZJBVc6KwFysNMBwJiyzEgmbX4CtWkEJi
+
+
+=== phpstorm pass mail ptcorp: pH55FbUG?c*@Tw~
+
+
+{"access_token":"1|YwRhU08InYccyt1rDfPwP0FpIIvyuL5RS3SDotyi","token_type":"Bearer"}
+
+
+
+Done Item :
+CC-01 : Ghép api danh sách workspace
+CC-02 : Dựng giao diện tạo mới workspace
+Doing Item :
+CC-03 : Ghép api tạo mới workspace ( 30% )
+CC-06 : Fix bug UI danh sách workspace (90%)
+Có thể done trong hôm nay
+Todo Item :
+CC-04 : Ghép api thêm thành viên vào workspace
+
+
+
+-- auth_users -> auth_team_user -> auth_teams -> 
+
+
+
+
+
+
+
+
++ task: 1. tao relatioship
+Done Item :
+Doing Item :
+CC-332 : Api teacher tạo mới cấu hình thông báo(60%): tạo thành công cho mode Nhóm, mode Toàn bộ workspace, Member
+Todo Item :
+CC-333, CC-334, CC-335, CC-336, CC-337 , cc-338
+
+
+
+
+
+
+Done Item :
+-MEAT 1: Sắp xếp lại thứ region ở form checkout
+Doing Item :
+-MEAT 2 : Sửa lại vị trí price ở cart mini (có thể done hôm nay)
+-CC-332 : Api teacher tạo mới cấu hình thông báo(90%)
+-MEAT 3
+Todo Item :
+CC-333, CC-334, CC-335, CC-336, CC-337 , cc-338 , MEAT-3, MEAT-4, MEAT-5
+
+
+
+
+
+
+sudo update-alternatives --config php
+
+
+
+
+
+
+
+================== cms
+account dev site: cit_education/Citeducation2023@
+
+
+27998|Jgk93BzUQxo62K08Xojv5b91BukwRlDEsl0XXZ6N
+
+
+
+Done Item :
+- EDC: Api Course learn, course requirement
+- EDC: Api filterable khóa học
+Doing Item :
+- EDC: filter khoa hoc
+- EDC: Lich du kien hoc
+Todo Item :
+- EDC: Api lưu cấu hình, - EDC: Bổ sung function send email thông báo học viên đăng ký tư vấn
+
+
+
+{{base_url_local}}cms/api/public/v1/courses?category_ids%5B%5D=2&category_ids%5B%5D=1&level_ids%5B%5D=1&price_type=free
+
+
+
+ 'dbname' => 'tmg2db',
+                'username' => 'tmg2dbuser',
+                'password' => 'tmg2pem3pAin8Cln',
+
+
+
+
+
+
+
